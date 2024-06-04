@@ -7,6 +7,8 @@
 
 This is repo for my Master thesis bioinformatics analysis results (Skoltech 2023-2024).
 
+**Supervisor
+
 ---
 
 ### About
@@ -36,8 +38,8 @@ You can find all the results in the `notebooks` folder:
 - [*01_Polycomb_loops_on_HiC_maps.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/01_Polycomb_loops_on_HiC_maps.ipynb)
 - [*02_Genes_within_Polycomb_loops.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/02_Genes_within_Polycomb_loops.ipynb)
 - [*03_Polycomb_Network.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/03_Polycomb_Network.ipynb)
-- *04_Polycomb_Expression.ipynb* (cooming soon)
-- *05_RYBP_YAF2_comparison.ipynb* (cooming soon)
+- *04_Polycomb_Expression.ipynb* (comming soon)
+- *05_RYBP_YAF2_comparison.ipynb* (comming soon)
 
 ### Raw data
 
