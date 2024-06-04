@@ -27,7 +27,7 @@ Some conclusions of this work were used in our recently published review:
 
 + [Zagirova, D., Kononkova, A., Vaulin, N. et al. From compartments to loops: understanding the unique chromatin organization in neuronal cells. Epigenetics & Chromatin 17, 18 (2024)](https://doi.org/10.1186/s13072-024-00538-6)
 
-The picture above is also taken from this review. Maybe I'll make some beautiful illustrations for this work separately.
+The picture above is also taken from this review. Maybe I'll make some beautiful illustrations for current work separately.
 
 ### Contents
 
