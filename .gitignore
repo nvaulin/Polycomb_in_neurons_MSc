@@ -1,0 +1,4 @@
+data/hc_plus.mcool
+data/hc_minus.mcool
+*.ipynb_checkpoints/
+*__pycache__/
