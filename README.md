@@ -7,7 +7,7 @@
 
 This is repo for my Master thesis bioinformatics analysis results (Skoltech 2023-2024).
 
-**Supervisor
+**Supervisor**: Prof. Ekaterina Khrameeva
 
 ---
 
@@ -21,7 +21,7 @@ This is repo for my Master thesis bioinformatics analysis results (Skoltech 2023
 
 #### In previous episodes
 
-This study is the continuation of the [Pletenev 2024 work](###References). Check it out to see the beginning of our Polycomb story!
+This study is the continuation of the [Pletenev 2024 work](#References). Check it out to see the beginning of our Polycomb story!
 
 #### Spin-offs
 
@@ -53,7 +53,7 @@ Almost all data necessary for the analysis is located in the `data` folder:
 
 Yet, some data is too big for GitHub :((
 
-- `hc_plus.mcool` and `hc_minus.mcool` - Human Brain (BA22p) post-mortem Hi-C maps obtained and described in detail in the [Pletenev 2024 work](###References). You can get them from the GEO (GSE229816). There are individual maps, and here I use maps that were merged using [01_merge_Hi-C.sh](https://github.com/i-pletenev/NeuN_plus_minus_paper/blob/v1.0/code/01_merge_Hi-C.sh) script (`PLUS_MRG_OUT` and `MINUS_MRG_OUT` names).
+- `hc_plus.mcool` and `hc_minus.mcool` - Human Brain (BA22p) post-mortem Hi-C maps obtained and described in detail in the [Pletenev 2024 work](#References). You can get them from the GEO (GSE229816). There are individual maps, and here I use maps that were merged using [01_merge_Hi-C.sh](https://github.com/i-pletenev/NeuN_plus_minus_paper/blob/v1.0/code/01_merge_Hi-C.sh) script (`PLUS_MRG_OUT` and `MINUS_MRG_OUT` names).
 
 
 
