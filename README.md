@@ -1,5 +1,5 @@
 
-## The Role of Polycomb Group Proteins in Neuronal Chromatin Structure and Epigenetics
+## 🧠🧬 The Role of Polycomb Group Proteins in Neuronal Chromatin Structure and Epigenetics 🧠🧬
 
 > **Nikita Vaulin** Skoltech</br>
 > tg: *@nvaulin* </br>
