@@ -3,3 +3,5 @@ data/hc_minus.mcool
 *.ipynb_checkpoints/
 *__pycache__/
 *.h5ad
+*.bw
+*.broadPeak
