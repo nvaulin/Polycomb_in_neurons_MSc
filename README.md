@@ -39,7 +39,7 @@ You can find all the results in the `notebooks` folder:
 - [*02_Genes_within_Polycomb_loops.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/02_Genes_within_Polycomb_loops.ipynb)
 - [*03_Polycomb_Network.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/03_Polycomb_Network.ipynb)
 - [*04_Polycomb_Expression.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/04_Polycomb_Expression.ipynb)
-- *05_RYBP_YAF2_comparison.ipynb* (comming soon)
+- [*05_RYBP_YAF2_comparison.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/05_RYBP_YAF2_comparison.ipynb)
 
 ### Raw data
 
@@ -58,6 +58,7 @@ Yet, some data is too big for GitHub :((
 
 - `hc_plus.mcool` and `hc_minus.mcool` - Human Brain (BA22p) post-mortem Hi-C maps obtained and described in detail in the [Pletenev 2024 work](#References). You can get them from the GEO (GSE229816). There are individual maps, and here I use maps that were merged using [01_merge_Hi-C.sh](https://github.com/i-pletenev/NeuN_plus_minus_paper/blob/v1.0/code/01_merge_Hi-C.sh) script (`PLUS_MRG_OUT` and `MINUS_MRG_OUT` names).
 -  scRNA-seq of human brain STG (superior temporal gyrus) cells (`6323dc85-7d67-4640-a407-c9724877f412.h5ad`). You can find this and other datasets from the Siletti paper *via* their GitHub repo: [github.com/linnarsson-lab/adult-human-brain](https://github.com/linnarsson-lab/adult-human-brain?tab=readme-ov-file)
+-  ChIPseq peaks and signal tracks for RYBP/YAF2 comparison - you can get them the GEO (GSE213416), which is for Yanjiang Liu 2023 paper.
 
 
 
@@ -67,4 +68,5 @@ Yet, some data is too big for GitHub :((
 - [Dong P et al. (2022). Population-level variation in enhancer expression identifies disease mechanisms in the human brain. Nature genetics, 54(10), 1493-1503.](https://doi.org/10.1038/s41588-022-01170-4)
 - [Rizzardi LF et al. (2019). Neuronal brain-region-specific DNA methylation and chromatin accessibility are associated with neuropsychiatric trait heritability. Nature neuroscience, 22(2), 307-316.](https://doi.org/10.1038/s41593-018-0297-8)
 - [Tian W et al. (2023). Single-cell DNA methylation and 3D genome architecture in the human brain. Science, 382(6667), eadf5357.](https://doi.org/10.1126/science.adf5357)
-- [Siletti K, (2023). Transcriptomic diversity of cell types across the adult human brain. Science, 382(6667), eadd7046.](https://doi.org/10.1126/science.add7046)
+- [Siletti K et al. (2023). Transcriptomic diversity of cell types across the adult human brain. Science, 382(6667), eadd7046.](https://doi.org/10.1126/science.add7046)
+- [Liu Y et al. (2023). Functional dissection of PRC1 subunits RYBP and YAF2 during neural differentiation of embryonic stem cells. Nature communications, 14(1), 7164. https://doi.org/10.1038/s41467-023-42507-9](https://doi.org/10.1038/s41467-023-42507-9)
