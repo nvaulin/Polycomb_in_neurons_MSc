@@ -38,22 +38,26 @@ You can find all the results in the `notebooks` folder:
 - [*01_Polycomb_loops_on_HiC_maps.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/01_Polycomb_loops_on_HiC_maps.ipynb)
 - [*02_Genes_within_Polycomb_loops.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/02_Genes_within_Polycomb_loops.ipynb)
 - [*03_Polycomb_Network.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/03_Polycomb_Network.ipynb)
-- *04_Polycomb_Expression.ipynb* (comming soon)
+- [*04_Polycomb_Expression.ipynb*](https://github.com/nvaulin/Polycomb_in_neurons_MSc/blob/main/notebooks/04_Polycomb_Expression.ipynb)
 - *05_RYBP_YAF2_comparison.ipynb* (comming soon)
 
 ### Raw data
 
 Almost all data necessary for the analysis is located in the `data` folder:
 
+- `polycomb_subunits.tsv` - Table of the Polycomb subunits (names, types)
 - `polycomb_dot_anchors.hand_made.bed` - Polycomb anchors manually marked-up by [Ilya Pletenev](https://github.com/i-pletenev) (💕)
 - `polycomb_loops.tsv` and `polycomb_loops_in_single_cells.tsv` - Loops found for the abovementioned anchors.
 - `H3K27me3_Neuron.bw`, `H3K27me3_NonNeuron.bw` - ChIP-seq BigWigs from the Dong 2022 work
-- `cells_fullmeta_m3C.tsv` - Single-cells metainformation from the Tian 2023 work
+- `cells_fullmeta_m3C.tsv` - scHi-C metainformation from the Tian 2023 work
 - `rnaseq.rizzardi2019...` - Genes expressed in neurons from the Rizzardi 2019 work
+- `cluster_annotation.xlsx`, `clusters_abbrevs.csv` - scRNA-seq metainformation from the Siletti 2023 work.
+
 
 Yet, some data is too big for GitHub :((
 
 - `hc_plus.mcool` and `hc_minus.mcool` - Human Brain (BA22p) post-mortem Hi-C maps obtained and described in detail in the [Pletenev 2024 work](#References). You can get them from the GEO (GSE229816). There are individual maps, and here I use maps that were merged using [01_merge_Hi-C.sh](https://github.com/i-pletenev/NeuN_plus_minus_paper/blob/v1.0/code/01_merge_Hi-C.sh) script (`PLUS_MRG_OUT` and `MINUS_MRG_OUT` names).
+-  scRNA-seq of human brain STG (superior temporal gyrus) cells (`6323dc85-7d67-4640-a407-c9724877f412.h5ad`). You can find this and other datasets from the Siletti paper *via* their GitHub repo: [github.com/linnarsson-lab/adult-human-brain](https://github.com/linnarsson-lab/adult-human-brain?tab=readme-ov-file)
 
 
 
@@ -63,3 +67,4 @@ Yet, some data is too big for GitHub :((
 - [Dong P et al. (2022). Population-level variation in enhancer expression identifies disease mechanisms in the human brain. Nature genetics, 54(10), 1493-1503.](https://doi.org/10.1038/s41588-022-01170-4)
 - [Rizzardi LF et al. (2019). Neuronal brain-region-specific DNA methylation and chromatin accessibility are associated with neuropsychiatric trait heritability. Nature neuroscience, 22(2), 307-316.](https://doi.org/10.1038/s41593-018-0297-8)
 - [Tian W et al. (2023). Single-cell DNA methylation and 3D genome architecture in the human brain. Science, 382(6667), eadf5357.](https://doi.org/10.1126/science.adf5357)
+- [Siletti K, (2023). Transcriptomic diversity of cell types across the adult human brain. Science, 382(6667), eadd7046.](https://doi.org/10.1126/science.add7046)
